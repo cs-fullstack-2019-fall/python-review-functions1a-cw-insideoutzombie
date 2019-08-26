@@ -64,7 +64,8 @@
 
 # ### Problem 5:
 # ##### We will keep having this problem until EVERYONE gets it right without help
-# Create a function that has a loop that quits with ‘q’. If the user doesn't enter 'q', ask them to input another string.
+# Create a function that has a loop that quits with ‘q’.
+# If the user doesn't enter 'q', ask them to input another string.
 def infinite():
     userInput5 = input("Enter something or hit 'q' to quit ")
     while userInput5 != 'q':
@@ -113,6 +114,5 @@ def main():
     subNum()
     divNum()
     mulNum()
-
 
 main()
