@@ -1,24 +1,24 @@
 ### Problem 1
 # Create a ```printNumbers``` function to print integers from -25 to 20 to the console (print in the function)
-# def printNumbers():
-#     for x in range(-25, 21, 1):
-#         print(x)
-#
-# printNumbers()
+def printNumbers():
+    for x in range(-25, 21, 1):
+        print(x)
+
+printNumbers()
 
 # ### Problem 2
 # Create a function called checkPassword. Send two string variables to the
 # checkPassword function to check if the strings are equal.
 # Return true if they are equal and false if they are not equal. Print the function's return value.
-# def checkPassword():
-#     userInput1 = input("Enter first word ")
-#     userInput2 = input("Enter second word ")
-#     if userInput1 != userInput2:
-#         print("false")
-#     else:
-#         print("True")
-#
-# checkPassword()
+def checkPassword():
+    userInput1 = input("Enter first word ")
+    userInput2 = input("Enter second word ")
+    if userInput1 != userInput2:
+        print("false")
+    else:
+        print("True")
+
+checkPassword()
 # ### Problem 3
 # Write a function that determines if a number passed to it is odd or even.
 # Pass a number of your choosing (using input a good idea) and then using the result
@@ -31,18 +31,18 @@
 # userNum = int(input("Enter a num to see if its odd or even "))
 
 
-# def problem3():
-#     userNum = int(input("Enter a num to see if its odd or even "))
-#
-#     return (userNum / 2)
-#
-#     number_to_check = userNum / 2
-#     if number_to_check > 100:
-#         return (f'The number {number_to_check} is Even!')
-#     elif number_to_check < 100:
-#         return (f'The number {number_to_check} is Odd!')
-#
-# problem3()
+def problem3():
+    userNum = int(input("Enter a num to see if its odd or even "))
+
+    return (userNum / 2)
+
+    number_to_check = userNum / 2
+    if number_to_check > 100:
+        return (f'The number {number_to_check} is Even!')
+    elif number_to_check < 100:
+        return (f'The number {number_to_check} is Odd!')
+
+problem3()
 # ### Problem 4
 # * Create a function for the challenge that you call from your ```main```
 # * Create a *second* function that takes NO parameters
@@ -50,16 +50,16 @@
 # and returns a string using the passed in greeting and 'World' (ex. ```Howdy World!```)
 # * From your *first* function, call the function(s) and print out the final result returned
 # def first():
-#     second()
-#     third()
-#
+#     second() # !! : you are not passing this function an argument 
+#     third() # !! : you are not passing this function an argument 
+
 # def second(user1):
-#     userInput = input("Enter here ")
-#
-#
+#     userInput = input("Enter here ") # !! : you are not using your parameter 
+
+
 # def third(greeting):
-#     greeting = user1 + "World"
-#
+#     greeting = user1 + "World" # !! : you are not using your parameter correctly 
+
 # first()
 
 # ### Problem 5:
